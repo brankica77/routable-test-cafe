@@ -18,11 +18,11 @@ node index.js
 
 ## Pages directory
 In the project, Page Model is used. Page Model Classes are:
-- home-page.js *contains elements from the login landing page*
-- companies-page.js *contains companies page elements*
-- add-vendor-page.js *contains elements from the add vendor form and subforms*
-- confirmation-page *contains vendor added confirmation page elements*
-- company-profile-page.js *contains company profile page elements*
+- home-page.js > *contains elements from the login landing page*
+- companies-page.js > *contains companies page elements*
+- add-vendor-page.js > *contains elements from the add vendor form and subforms*
+- confirmation-page > *contains vendor added confirmation page elements*
+- company-profile-page.js > *contains company profile page elements*
 
 ## Tests directory
 Tests that cover all given tasks are :
