@@ -25,7 +25,6 @@ fixture ('Search Vendor and Verify Company Profile Details')
 });
 
 test ('Role Branka verifies About tab Details - Contact Name && Contact Email', async t => {
-    //About tab - Contact Name && Contact Email Data Verification
     const extractedContactName = companyProfilePage.text_contact_name().textContent
     await t.expect(extractedContactName).contains(testData.contactName + ' ' + testData.contactLastName, 'FAILED - Incorrect contact name')
     const extractedContactEmail = companyProfilePage.text_contact_email().textContent

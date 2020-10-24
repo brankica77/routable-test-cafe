@@ -9,7 +9,7 @@ const brankaRole = Role ('https://app.recruiting-challenge.megabox.dev/login', a
         //.click('#authLoginForm [name="form.password"]')
         .typeText('#authLoginForm [name="form.password"]', 'branka-povio-2020')
         .click('#auth_login_btn')
-        .wait(3000)
+        //.wait(1000)
         .maximizeWindow();
 }, { preserveUrl: true });
 
