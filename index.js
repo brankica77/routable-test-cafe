@@ -7,7 +7,7 @@ createTestCafe('localhost', 1337, 1338)
         const runner = testcafe.createRunner();
 
         return runner
-            .src(['_tests/test-add-vendor.js', '_tests/test-search-vendor.js'])
+            .src(['_tests/test-dynamic.js'])
             .browsers(['chrome'])
             .run({
                 skipJsErrors: true

@@ -1,0 +1,11 @@
+[
+  {"stepAction":"openPage", "stepValue":"https://app.recruiting-challenge.megabox.dev/login", "stepSelector":"","selectorWithText":"","successSelector":"#auth_login_btn","waitTime":3000},
+  {"stepAction":"type", "stepValue":"branka-bar-and-grill", "stepSelector":"#authLoginForm [name=\"form.namespace\"]","selectorWithText":"","successSelector":"","waitTime":3000},
+  {"stepAction":"type", "stepValue":"branka@domic.com", "stepSelector":"#authLoginForm [name=\"form.username\"]","selectorWithText":"","successSelector":"","waitTime":3000},
+  {"stepAction":"type", "stepValue":"branka-povio-2020", "stepSelector":"#authLoginForm [name=\"form.password\"]","selectorWithText":"","successSelector":"","waitTime":3000},
+  {"stepAction":"click", "stepValue":"", "stepSelector":"#auth_login_btn","selectorWithText":"","successSelector":"","waitTime":3000},
+  {"stepAction":"click", "stepValue":"", "stepSelector":"[class^=\"icon-ic-logo-letter font-color--white remove-hover\"]","selectorWithText":"","successSelector":"","waitTime":3000},
+  {"stepAction":"clickWithText", "stepValue":"", "stepSelector":"#accordion__heading-companies span","selectorWithText":"Companies","successSelector":"","waitTime":3000},
+  {"stepAction":"click", "stepValue":"", "stepSelector":"#dashboard-search-field","selectorWithText":"","successSelector":"","waitTime":3000},
+  {"stepAction":"pressEnter", "stepValue":"", "stepSelector":"","selectorWithText":"","successSelector":"","waitTime":3000}
+]
